@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GestureMode</string>
+    <string name="accessibility_service_name">GestureMode System Control</string>
+    <string name="accessibility_service_description">This service is required to map your hand gestures to system-wide cursor movements, scrolling, and actions like going Home.</string>
+</resources>
