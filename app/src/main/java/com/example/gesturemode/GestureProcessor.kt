@@ -11,7 +11,7 @@ class GestureProcessor(
     private val overlayManager: OverlayManager,
     private val audioManager: AudioManager
 ) {
-    private var lastCursorPos = PointF(SystemController.screenWidth / 2f, SystemController.ScreenHeight / 2f)
+    private var lastCursorPos = PointF(SystemController.screenWidth / 2f, SystemController.screenHeight / 2f)
     private val smoothingFactor = 0.3f // EMA smoothing
     
     private var lastScrollY = 0f
